@@ -1,0 +1,87 @@
+body{
+    background: url(./1gML.gif);
+    background-repeat: no-repeat;
+    background-position: center 1%;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+.sverxTimer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.timer {
+    display: flex;
+    gap: 15px;
+    color: orange;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: "consolas";
+    
+}
+.timer span{
+    /* font-family: "clockicons"; */
+    font-family: "consolas";
+    font-size: 100px;
+}
+
+
+/* КНОПКИ ON AND OFF */
+
+
+.buttons_timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.timer_b{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+}
+.timer_b:active{
+    background-color: aqua;
+}
+
+
+/* КНОПКИ PAYSE AND RESET */
+
+
+.buttons_timer_bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.timer_a{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+}
+.timer_a:active{
+    background-color: aqua;
+}
